@@ -22,7 +22,7 @@ export class TreeDiagramNodesList {
       );
     });
     this.makeRoots();
-    this.makerGuid = this.uuidv4();
+    /*this.makerGuid = this.uuidv4();
 
     const node = {
       guid: this.makerGuid,
@@ -36,7 +36,7 @@ export class TreeDiagramNodesList {
       this.getThisNodeList.bind(this)
     );
 
-    this.nodesList.set(this.makerGuid, maker);
+    this.nodesList.set(this.makerGuid, maker);*/
   }
 
   public values() {
